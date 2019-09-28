@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadCertificateFileName</key>
+			<string>odyssys.net.cer</string>
+			<key>PayloadContent</key>
+			<data>MIIDrjCCApagAwIBAgIKBAAAAAFZ4XT0KjANBgkqhkiG9w0BAQsFADBzMSMwIQYDVQQKDBpHbG9iYWxSZWFjaCBUZWNobm9sb2d5IEx0ZDEfMB0GA1UECwwWODAyLjF4IEludGVybWVkaWF0ZSBDQTErMCkGA1UEAwwiR2xvYmFsUmVhY2ggODAyLjF4IEludGVybWVkaWF0ZSBDQTAeFw0xNzAxMjcxOTQ0MTVaFw0yNzAxMjcxOTQ0MTVaMDsxIzAhBgNVBAoMGkdsb2JhbFJlYWNoIFRlY2hub2xvZ3kgTHRkMRQwEgYDVQQDDAtvZHlzc3lzLm5ldDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALuKh9vOIjQbOlDENQxU/MYJ6NfqSMuBFhk01CM/JpKch2WPvfpvJhO0w3h0sxQ6bwyoN3h9XnkD9s8slBRP9ry/bTKylZnOa7HsYZTzRzhTHJAL+n95VGrHO9/mRjkmaVU96Cpn+822Th5D2TL9N0fHjawDSgAf8uNq5lG8vboksv9xwFwgP/fdE4MLbfsk7dSqLyXlKrXbRb2vg9e0AJQoyqw/5s2QYVmVJqZCltTCvJ+TAdrAcqy1KNxH5pVTkVVpyQjIUVe50s//At/AIxleNn2lGGHeriNYSl9eNAVtGmSzTFNcA41tIreoJRwPCnLX5/gaXRisFBy++XtsJT0CAwEAAaN8MHowHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgWgMB8GA1UdIwQYMBaAFEjXj4M1+9AF5IyKaodLw7LbGc/7MB0GA1UdDgQWBBQeKyin7HQDRXwM9eNP2JOEqy57CjANBgkqhkiG9w0BAQsFAAOCAQEAU5ZwojF4B0+vUxhlzXdV3Fc+GiiyxAIV7qur8JK4X+7WZX7joxuCgKsgEgFU/hSndO4IgQkabmZCxeJltOe1kuUgmLuslAzmYcI2OzFrWajTU1pTCa9rSIDd/O/HjZw/WgTEbsmr7T2yVP3Cqr35PErP3ZfVx1eO0lE9LKkFyHp4UFNQHaoWoH/KsMPdMNUFomcblYR/v6CR1dB1UR/u8q0g/yv7jO+pQWErNzbAiKU8wC4GBMPXQ1x4SgNqjhQPAgmsou+9Q65JPHT/lmHRroyz/qcVLQPvPM2Bq0NQJ+dpiEEcrlBTvPjPyxGeVaEMHb4Zit+mtZAlr2x/Fdah9w==</data>
+			<key>PayloadDescription</key>
+			<string>Adds a PKCS#1-formatted certificate</string>
+			<key>PayloadDisplayName</key>
+			<string>odyssys.net</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.pkcs1.21FD6ADC-5CFB-48C8-89A5-0EFBF38B10F2</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.pkcs1</string>
+			<key>PayloadUUID</key>
+			<string>21FD6ADC-5CFB-48C8-89A5-0EFBF38B10F2</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AutoJoin</key>
+			<true/>
+			<key>CaptiveBypass</key>
+			<false/>
+			<key>EAPClientConfiguration</key>
+			<dict>
+				<key>AcceptEAPTypes</key>
+				<array>
+					<integer>21</integer>
+				</array>
+				<key>PayloadCertificateAnchorUUID</key>
+				<array>
+					<string>21FD6ADC-5CFB-48C8-89A5-0EFBF38B10F2</string>
+				</array>
+				<key>TLSMaximumVersion</key>
+				<string>1.0</string>
+				<key>TLSMinimumVersion</key>
+				<string>1.0</string>
+				<key>TTLSInnerAuthentication</key>
+				<string>PAP</string>
+				<key>UserName</key>
+				<string>!!!UserName!!!</string>
+				<key>UserPassword</key>
+				<string>!!!UserPassword!!!</string>
+			</dict>
+			<key>EncryptionType</key>
+			<string>WPA</string>
+			<key>HIDDEN_NETWORK</key>
+			<false/>
+			<key>IsHotspot</key>
+			<false/>
+			<key>PayloadDescription</key>
+			<string>Configures Wi-Fi settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Wi-Fi</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.wifi.managed.44BD5EC8-A063-4E25-AA09-96A804397660</string>
+			<key>PayloadType</key>
+			<string>com.apple.wifi.managed</string>
+			<key>PayloadUUID</key>
+			<string>44BD5EC8-A063-4E25-AA09-96A804397660</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProxyType</key>
+			<string>None</string>
+			<key>SSID_STR</key>
+			<string>MMU 802.1x Staff</string>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>CiscoLab IDM Staff </string>
+	<key>PayloadIdentifier</key>
+	<string>Wai-inc.4AB6C1C0-F309-4A04-9A96-356FA6206AE3</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>812A9B1D-FB33-46FD-9EAE-C9C469E34A4D</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
